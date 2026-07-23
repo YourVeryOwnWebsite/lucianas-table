@@ -1,6 +1,6 @@
 # lucianas-table
 
-Luciana's Table is a single-page website for a family-run Italian trattoria in Portland, Oregon. It features a centered hero with the restaurant name and hours, a printed-menu-style highlights section with dotted leader lines, an about and visit section with address and hours, and a reservations call-to-action. The design is warm and rustic, using cream, deep forest green, and amber tones with elegant serif typography.
+Luciana's Table is a single-page website for a family-run Italian trattoria in Portland, Oregon. It features a full-bleed cinematic hero with a slow Ken Burns pan animation, a printed-menu-style highlights section with food photography woven between dishes, an about and visit section with address and hours, and a reservations call-to-action. The site is warm, rustic, and elegant — built to reflect the character of an authentic Italian kitchen.
 
 ## 🌐 Live Site
 
