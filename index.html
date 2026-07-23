@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luciana's Table — A family-run Italian trattoria in Portland, OR. Fresh pasta, classic secondi, and grandmother's tiramisù. Open Tue–Sun, 5–10pm." />
+  <title>Luciana's Table — Italian Trattoria, Portland OR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- SITE HEADER / NAV START -->
+  <header class="site-header">
+    <nav class="nav-inner" aria-label="Primary navigation">
+      <a href="#top" class="nav-logo" aria-label="Luciana's Table home">Luciana's Table</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#reservations" class="nav-cta">Reserve a Table</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul role="list">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#reservations">Reserve a Table</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- SITE HEADER / NAV END -->
+
+  <main id="top">
+
+    <!-- HERO SECTION START -->
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="hero-texture" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Portland, Oregon</p>
+        <h1 id="hero-name" class="hero-name">Luciana's<br /><em>Table</em></h1>
+        <p class="hero-tagline">A family-run Italian trattoria — honest food, made with love, served with warmth.</p>
+        <div class="hero-divider" aria-hidden="true">
+          <span class="divider-leaf">&#10022;</span>
+        </div>
+        <p class="hero-hours">
+          <span class="hours-label">Open</span>
+          Tuesday – Sunday &nbsp;·&nbsp; 5:00 pm – 10:00 pm
+        </p>
+        <div class="hero-actions">
+          <a href="#reservations" class="btn btn-primary">Reserve a Table</a>
+          <a href="#menu" class="btn btn-secondary">View Menu</a>
+        </div>
+      </div>
+      <!-- Decorative olive branch illustration placeholder -->
+      <!-- assets/img/olive-branch.png — swap in a real illustration here -->
+      <div class="hero-illustration" aria-hidden="true">
+        <div class="illus-ring illus-ring--outer"></div>
+        <div class="illus-ring illus-ring--inner"></div>
+        <span class="illus-monogram">L</span>
+      </div>
+    </section>
+    <!-- HERO SECTION END -->
+
+    <!-- MENU HIGHLIGHTS SECTION START -->
+    <section class="menu-section" id="menu" aria-labelledby="menu-heading">
+      <div class="section-inner">
+        <header class="section-header">
+          <p class="section-eyebrow">From Our Kitchen</p>
+          <h2 id="menu-heading">Menu Highlights</h2>
+          <p class="section-subhead">Each dish prepared daily from ingredients we trust, recipes we cherish.</p>
+        </header>
+
+        <div class="menu-card">
+
+          <!-- Menu Category: Antipasti -->
+          <div class="menu-category">
+            <h3 class="category-label">Antipasti</h3>
+            <ul class="menu-list" role="list">
+              <li class="menu-item">
+                <div class="menu-item-header">
+                  <span class="item-name">Burrata e Prosciutto</span>
+                  <span class="item-dots" aria-hidden="true"></span>
+                  <span class="item-price">$16</span>
+                </div>
+                <p class="item-description">Local burrata at its creamiest, draped with aged prosciutto and served alongside grilled sourdough rubbed with good olive oil.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-divider-rule" aria-hidden="true"></div>
+
+          <!-- Menu Category: Primi -->
+          <div class="menu-category">
+            <h3 class="category-label">Primi</h3>
+            <ul class="menu-list" role="list">
+              <li class="menu-item">
+                <div class="menu-item-header">
+                  <span class="item-name">Cacio e Pepe</span>
+                  <span class="item-dots" aria-hidden="true"></span>
+                  <span class="item-price">$19</span>
+                </div>
+                <p class="item-description">Fresh tonnarelli pulled to order, tossed in a silky sauce of aged Pecorino Romano and coarsely cracked Tellicherry pepper. Deceptively simple, unmistakably Roman.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-divider-rule" aria-hidden="true"></div>
+
+          <!-- Menu Category: Secondi -->
+          <div class="menu-category">
+            <h3 class="category-label">Secondi</h3>
+            <ul class="menu-list" role="list">
+              <li class="menu-item">
+                <div class="menu-item-header">
+                  <span class="item-name">Osso Buco</span>
+                  <span class="item-dots" aria-hidden="true"></span>
+                  <span class="item-price">$34</span>
+                </div>
+                <p class="item-description">Slow-braised veal shank with white wine, tomato, and gremolata. Finished table-side and served atop a mound of golden saffron risotto.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-divider-rule" aria-hidden="true"></div>
+
+          <!-- Menu Category: Dolci -->
+          <div class="menu-category">
+            <h3 class="category-label">Dolci</h3>
+            <ul class="menu-list" role="list">
+              <li class="menu-item">
+                <div class="menu-item-header">
+                  <span class="item-name">Tiramisù della Nonna</span>
+                  <span class="item-dots" aria-hidden="true"></span>
+                  <span class="item-price">$11</span>
+                </div>
+                <p class="item-description">Grandmother Luciana's original recipe — espresso-soaked savoiardi, whipped mascarpone, and a generous dusting of dark cocoa. Made every morning. Never enough.</p>
+              </li>
+            </ul>
+          </div>
+
+        </div><!-- /.menu-card -->
+
+        <p class="menu-note">Full menu changes seasonally. Dietary accommodations available — please ask your server.</p>
+      </div>
+    </section>
+    <!-- MENU HIGHLIGHTS SECTION END -->
+
+    <!-- ABOUT SECTION START -->
+    <section class="about-section" id="about" aria-labelledby="about-heading">
+      <div class="section-inner about-inner">
+        <!-- About photo placeholder -->
+        <!-- assets/img/photo1.jpg — swap in a candid restaurant/family photo here -->
+        <figure class="about-photo" aria-label="The kitchen at Luciana's Table">
+          <div class="about-photo-placeholder">
+            <div class="photo-grain"></div>
+            <span class="photo-caption-inner">Est. 2009</span>
+          </div>
+          <figcaption class="visually-hidden">The family kitchen at Luciana's Table</figcaption>
+        </figure>
+
+        <div class="about-text">
+          <p class="section-eyebrow">Our Story</p>
+          <h2 id="about-heading">Cooking the Way Nonna Did</h2>
+          <p>Luciana's Table began in 2009 when Maria and Enzo Ferretti turned a lifelong dream — and a battered recipe notebook from Enzo's mother — into a trattoria the neighbourhood didn't know it needed. Fifteen years on, their daughter Sofia manages the floor while the kitchen remains fiercely, uncompromisingly a family affair.</p>
+          <p>We use Oregon's remarkable produce, proteins sourced from farms we've visited, and pasta rolled fresh every afternoon. The menu is short on purpose: everything on it is something we would serve at our own table.</p>
+          <p>No reservations needed for parties of two. For larger groups, we encourage you to call ahead — we'd love to set the table just right.</p>
+          <a href="#reservations" class="btn btn-primary">Make a Reservation</a>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- VISIT SECTION START -->
+    <section class="visit-section" id="visit" aria-labelledby="visit-heading">
+      <div class="section-inner visit-inner">
+
+        <header class="section-header section-header--light">
+          <p class="section-eyebrow section-eyebrow--light">Find Us</p>
+          <h2 id="visit-heading">Come to the Table</h2>
+        </header>
+
+        <div class="visit-grid">
+
+          <article class="visit-card" aria-label="Hours of operation">
+            <div class="visit-card-icon" aria-hidden="true">&#9789;</div>
+            <h3>Hours</h3>
+            <dl class="hours-list">
+              <div class="hours-row">
+                <dt>Tuesday – Sunday</dt>
+                <dd>5:00 pm – 10:00 pm</dd>
+              </div>
+              <div class="hours-row hours-row--closed">
+                <dt>Monday</dt>
+                <dd>Closed</dd>
+              </div>
+            </dl>
+            <p class="visit-note">Kitchen closes at 9:30 pm. Last seating at 9:15 pm.</p>
+          </article>
+
+          <article class="visit-card" aria-label="Address and location">
+            <div class="visit-card-icon" aria-hidden="true">&#9675;</div>
+            <h3>Location</h3>
+            <address>
+              412 Harvest Lane<br />
+              Portland, OR
+            </address>
+            <a href="https://maps.google.com/?q=412+Harvest+Lane+Portland+OR" target="_blank" rel="noopener noreferrer" class="visit-link">Get Directions &#8599;</a>
+            <p class="visit-note">Street parking available on Harvest Lane and adjacent side streets. Accessible entrance on the north side of the building.</p>
+          </article>
+
+          <article class="visit-card" aria-label="Reservations and contact">
+            <div class="visit-card-icon" aria-hidden="true">&#9743;</div>
+            <h3>Reservations</h3>
+            <p>Call us directly or use the reservation form below. Walk-ins always welcome, subject to availability.</p>
+            <a href="tel:+15035550192" class="visit-link">(503) 555-0192</a>
+            <a href="mailto:hello@lucianastable.com" class="visit-link">hello@lucianastable.com</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <!-- VISIT SECTION END -->
+
+    <!-- RESERVATIONS SECTION START -->
+    <section class="reservations-section" id="reservations" aria-labelledby="reservations-heading">
+      <div class="section-inner reservations-inner">
+        <header class="section-header">
+          <p class="section-eyebrow">Join Us</p>
+          <h2 id="reservations-heading">Reserve Your Table</h2>
+          <p class="section-subhead">We look forward to welcoming you. Fill in your details and we'll confirm within a few hours.</p>
+        </header>
+
+        <form class="reservation-form" action="#" method="post" novalidate aria-label="Table reservation form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="res-name">Full Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="res-name" name="name" placeholder="Maria Rossi" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="res-email">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="res-email" name="email" placeholder="maria@example.com" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="res-phone">Phone Number</label>
+              <input type="tel" id="res-phone" name="phone" placeholder="(503) 555-0100" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="res-guests">Number of Guests <span aria-hidden="true">*</span></label>
+              <select id="res-guests" name="guests" required>
+                <option value="" disabled selected>Select party size</option>
+                <option value="1">1 guest</option>
+                <option value="2">2 guests</option>
+                <option value="3">3 guests</option>
+                <option value="4">4 guests</option>
+                <option value="5">5 guests</option>
+                <option value="6">6 guests</option>
+                <option value="7+">7 or more — please call</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="res-date">Preferred Date <span aria-hidden="true">*</span></label>
+              <input type="date" id="res-date" name="date" required />
+            </div>
+            <div class="form-group">
+              <label for="res-time">Preferred Time <span aria-hidden="true">*</span></label>
+              <select id="res-time" name="time" required>
+                <option value="" disabled selected>Select a time</option>
+                <option value="17:00">5:00 pm</option>
+                <option value="17:30">5:30 pm</option>
+                <option value="18:00">6:00 pm</option>
+                <option value="18:30">6:30 pm</option>
+                <option value="19:00">7:00 pm</option>
+                <option value="19:30">7:30 pm</option>
+                <option value="20:00">8:00 pm</option>
+                <option value="20:30">8:30 pm</option>
+                <option value="21:00">9:00 pm</option>
+                <option value="21:15">9:15 pm (last seating)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group form-group--full">
+            <label for="res-notes">Special Requests or Dietary Notes</label>
+            <textarea id="res-notes" name="notes" rows="4" placeholder="Allergies, celebrations, seating preferences…"></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary btn--large">Request Reservation</button>
+            <p class="form-disclaimer">We'll confirm by phone or email within 4 hours during business hours.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- RESERVATIONS SECTION END -->
+
+  </main>
+
+  <!-- SITE FOOTER START -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <p class="footer-name">Luciana's Table</p>
+        <p class="footer-tagline-small">Italian Trattoria &mdash; Portland, Oregon</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul role="list">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#visit">Visit Us</a></li>
+          <li><a href="#reservations">Reservations</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <address>
+          412 Harvest Lane, Portland OR<br />
+          <a href="tel:+15035550192">(503) 555-0192</a><br />
+          <a href="mailto:hello@lucianastable.com">hello@lucianastable.com</a>
+        </address>
+        <p class="footer-hours-small">Tue–Sun &nbsp;·&nbsp; 5 – 10 pm</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-legal">&copy; 2024 Luciana's Table. All rights reserved.</p>
+      <p class="yvow-credit">Built with help from <a href="https://yourveryownweb.site" rel="noopener">YourVeryOwnWeb.site</a></p>
+    </div>
+  </footer>
+  <!-- SITE FOOTER END -->
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
